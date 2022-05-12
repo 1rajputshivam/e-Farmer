@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding: 0; 
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:60%;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 2px; 
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: rgb(80, 78, 78);
+    
+
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+} 
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu' sans-serif;
+}
+.nav-list li a:hover{
+    color: grey;
+
+}
+.rightNav{
+    /*background-color: aqua;*/
+    width: 30%;
+    text-align: right;
+    padding: 25px 23px; /*0 23px*/
+}
+#search{
+     padding: 5px;
+     font-size: 17px;
+     border: 2px solid gray;
+     border-radius: 9px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.7) url(../img/logo.png);
+    background-size: cover;
+    Background-blend-mode:darken;
+}
+
+.firstScetion{
+    height: 100vh;
+}
+.firstSec{
+    height: 60vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+
+}
+.firstHalf{
+width: 75%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width:70%;
+    border: 3px solid red;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+    font-size: 12px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none; 
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu',sans-serif;
+    
+
+}
+.btn-sm{
+    padding: 4px 10px;
+    vertical-align: middle;
+
+}
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+    vertical-align:middle;
+}
+.section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu',sans-serif;
+    padding: 10px;
+    
+}
+.section.left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+.secReverse{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'segoe UI' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 290px;
+    border: 2px;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+.Contact{
+    background-color:rgb(237, 240, 243);
+    height: 600px;
+}  
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 30px;
+    
+}
+.form{
+    max-width: 62%;
+    margin: 20px auto;
+    
+}
+.form-input{
+    margin: 10px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 0%;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.container{
+    width: 99%;
+    height: auto;
+    background: rgb(189, 245, 175);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 10px;
+    border-radius: 20px;
+}
+.box{
+    width: 300px;
+    height: 450px ;
+    background: rgb(121, 116, 109);
+    margin: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+ }
+ .banner-img {
+    position: absolute;
+    background-image: url(https://source.unsplash.com/900x900/?crops );
+    width: 300px;
+    height: 100px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: border-box;
+  }
+ .profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  .text{
+    text-align: left;
+    font-size: 20px;
+    padding: 30px;
+   
+  }
+  .ab{
+    height: 600px;
+    text-align: center;
+   
+  }
+  .xy{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(83, 107, 99);
+   
+  }
+ /*
+ .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+  }
+  
+  .container {
+    overflow: auto;
+    height: 450px;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0.5rem;
+  }
+  
+  .banner-img {
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: var(--clr-primary);
+  }
+
+
+  <div class="logo"><a href="http://127.0.0.1:5500/"><img src="img/logo.png" alt="logo"></a></div>
+  */

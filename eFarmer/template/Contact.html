@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/Style.css">
+    <link rel="stylesheet" href="../static/responsive.css">
+    <title>eFarmer</title>
+    <script src="https://www.momentcrm.com/embed"></script>
+    <script src="https://www.momentcrm.com/embed"></script>
+    <script>
+      MomentCRM('init', {
+        'teamVanityId': 'efam12345',
+        'doChat': true,
+        'doTracking': true,
+      });
+    </script>
+</head>
+<body style="background-color: aliceblue;">
+    
+    <nav class="navbar background h-nav-resp"  >
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><a href="/logo"><img src="../static/logo.png" alt="logo"></a></div>
+            
+            <li><a href="/home">Home</a> </li>
+            <li><a href="/about" action="/about">About</a> </li>
+            <li><a href="#Services">Services</a> </li>
+            <li><a href="/Contact">Contact</a> </li>
+            
+        </ul>
+        <div class="rightNav v-class-resp" id="google_translate_element">
+                 
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+        </div>
+    </nav>
+      
+
+    <section class="Contact" id="Contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <form action="https://formsubmit.co/1rajputshivam@gmail.com" method="POST">
+            <input class="form-input" type="text" name="Name" id="Name" placeholder="Enter your Name"> 
+            <input class="form-input" type="text" name="Phone" id="Phone" placeholder="Enter your Phone Number">
+            <input class="form-input" type="Email" name="Email" id="Email" placeholder="Enter your Email Id">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Eleborate your Concern......"></textarea>
+            <input type="submit" value="submit" name="btn" class="btn btn-dark btn-sm" >
+        </form>
+        </div>
+    </section>
+    
+    <section >
+        <div class="navbar">
+          <ul class="nav-list ">
+            <li><a href="/about">About</a> </li>
+            <li><a href="#Services">Services</a> </li>
+            <li><a href="/Contact">Contact</a> </li>  
+          </ul>
+  
+        </div>
+    </section>
+    <script src="js/resp.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </body>
+</html>

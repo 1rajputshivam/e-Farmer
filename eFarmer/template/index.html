@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/Style.css">
+    <link rel="stylesheet" href="../static/responsive.css">
+    <title>eFarmer</title>
+    <script src="https://www.momentcrm.com/embed"></script>
+    <script src="https://www.momentcrm.com/embed"></script>
+    <script>
+      MomentCRM('init', {
+        'teamVanityId': 'efam12345',
+        'doChat': true,
+        'doTracking': true,
+      });
+    </script>
+</head>
+<body style="background-color: aliceblue;">
+    
+    <nav class="navbar h-nav-resp"  >
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><a href="/logo"><img src="../static/logo.png" alt="logo"></a></div>
+            
+            <li><a href="/home">Home</a> </li>
+            <li><a href="/about" action="/about">About</a> </li>
+            <li><a href="#Services">Services</a> </li>
+            <li><a href="/Contact">Contact</a> </li>
+          <!--   <li><a href="html/Contact.html"></a></li> -->
+            <li>
+                <form action="/prediction" method="POST" enctype="multipart/form-data" onsubmit="showload"> 
+                <input type="file" name="img"> 
+                <input type="submit" name="btn" value="Predict">  </form></li>       
+        </ul>
+        <div class="rightNav v-class-resp" id="google_translate_element">
+            <!--      -->
+            <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" id="search">
+            <button type="submit" class="btn btn-sm"> Search</button> 
+        </form>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+        </div>
+    </nav>
+    <hr>
+    
+    <section class="background firstScetion">
+        <div class="box-main">
+          <!--  <div class="firstHalf">
+            <p class="text-big">The future of farmer is here </p>
+            <p class="text-small"> The future of farmer is here The future of farmer is hereThe future of farmer is hereThe future of farmer is hereThe future of farmer is hereThe future of farmer is hereThe future of farmer is here</p>
+            <div class="button">
+                <button class="btn">upload photo</button>
+            </div>
+        </div>   
+        <div class="secondHalf">
+            <img src="img/smiley.jpg" alt="efarmer logo">
+        </div>  -->
+        <h1 class="xy">eFarmer</h1>
+    </div>
+
+
+
+
+    
+
+
+
+
+    </section>
+    <div class="container" id="Services">
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Wheat' alt='profile image' class="profile-img">    
+            <h1 class="name">Wheat</h1>  
+            <p class="description">Wheat is one of the oldest and most important cereal crop in India. Indian wheat is largely a soft/medium hard, medium protein, white bread wheat, somewhat similar to U.S. hard white wheat.
+            <a href="/wheat"> Learn More...</a>
+        </p> 
+   </div>
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Apple fruit' alt='profile image' class="profile-img">    
+            <h1 class="name">Apple</h1>
+            <p class="description">Apple is an important temperate fruit. Apple is primarily cultivated in Jammu & Kashmir; Himachal Pradesh; hills of Uttar Pradesh and Uttaranchal. It is also cultivated to a small extent in Arunachal Pradesh; Nagaland; Punjab and Sikkim.
+                <a href="/Apple"> Learn More...</a>
+            </p>
+        </div>
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Maize corn' alt='profile image' class="profile-img">    
+            <h1 class="name">Maize</h1>
+            <p class="description"> Maize is the third most important cereal crop in India after rice and wheat. Maize is a tropical plant which prefers warm humid weather. It is a short-day plant. It is very sensitive to excess or deficit soil moisture.
+                <a href="/Maize"> Learn More...</a>
+            </p>
+        </div>
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Cherry' alt='profile image' class="profile-img">    
+            <h1 class="name">Cherry</h1>
+            <p class="description">The Cherry fruit belongs to many of genus prunus and packed with healthy nutrients and excellent antioxidants.
+                <a href="/Cherry"> Learn More...</a>
+            </p>
+        </div>
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Peach fruit' alt='profile image' class="profile-img">    
+            <h1 class="name">Peach</h1>
+            <p class="description">Peach is an important stone fruit crop of the temperate zone. This area has a subtropical climate. Areas in Punjab where peach cultivation is high in Ludhiana, Amritsar, Hoshiarpur, Jalandhar, Ferozepur, Muktsar sahib, Patiala, Sangrur, Bathinda, Ropar.
+                <a href="/Peach"> Learn More...</a>
+            </p>
+            
+        </div>
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Potato vegetable' alt='profile image' class="profile-img">    
+            <h1 class="name">Potato</h1>
+            <p class="description">Potato  popularly known as 'The king of vegetables', has emerged as
+                fourth most important food crop in India after rice,
+                wheat and maize.
+                <a href="/Potato"> Learn More...</a>
+        </div>
+        <div class="box">
+            <div class='banner-img'></div>
+            <img src='https://source.unsplash.com/900x900/?Tomato vegetable' alt='profile image' class="profile-img">    
+            <h1 class="name">Tomato</h1>
+            <p class="description">Tomato cultivation in India is one of the most profitable agribusiness. It is short duration vegetable crop and Tomato can be grown in outdoor as well as indoor conditions.
+                <a href="/Tomato"> Learn More...</a>
+            </p>
+        </div>
+
+    </div>  
+
+    
+
+    <section class="section" >
+        <div class="paras">
+        <p class="sectionTag text-big">Agriculture is the backbone of the Indian Economy</p>
+        <p class="sectionSubTag text-small"> Agriculture is the backbone of the Indian Economy"- said Mahatma Gandhi six decades ago. Even today, the situation is still the same, with almost the entire economy being sustained by agriculture, which is the mainstay of the villages. It contributes 16% of the overall GDP and accounts for employment of approximately 52% of the Indian population. Rapid growth in agriculture is essential not only for self-reliance but also to earn valuable foreign exchange.
+        </p>
+        </div>
+            <div class="thumbnail">
+                <img src="https://source.unsplash.com/900x900/?crop" alt="farmer logo" class="imgFluid">
+            </div>
+    </section>
+    <section class="secReverse">
+        <div class="paras">
+        <p class="sectionTag text-big">Indian Farmer</p>
+        <p class="sectionSubTag text-small"> Indian farmers are second to none in production and productivity despite of the fact that millions are marginal and small farmers. They adopt improved agriculture technology as efficiently as farmers in developed countries. It is felt that with provision of timely and adequate inputs such as fertilizers, seeds, pesticides and by making available affordable agricultural credit /crop insurance, Indian farmers are going to ensure food and nutritional security to the Nation.It is envisaged to make available relevant information and services to the farming community and private sector through the use of information and communication technologies, to supplement the existing delivery channels provided for by the department. Farmers’ Portal is an endeavour in this direction to create one stop shop for meeting all informational needs relating to Agriculture, Animal Husbandry and Fisheries sectors production, sale/storage of an Indian farmer. With this Indian Farmer will not be required to sift through maze of websites created for specific purposes.Once in the Farmers’ Portal, a farmer will be able to get all relevant information on specific subjects around his village/block /district or state. This information will be delivered in the form of text, SMS, email and audio/video in the language he or she understands. These levels can be easily reached through the Map of India placed on the Home page. Farmers will also be able to ask specific queries as well as give valuable feedback through the Feedback module specially developed for the purpose.            </p>
+        </div>
+            <div class="thumbnail">
+                <img src="https://source.unsplash.com/900x900/?Indian, farmer" alt="farmer logo" class="imgFluid">
+            </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">Agriculture in India</p>
+        <p class="sectionSubTag text-small">The history of agriculture in India dates back to the Indus Valley Civilization. India ranks second worldwide in farm outputs. As per 2018, agriculture employed more than 50% of the Indian work force and contributed 17–18% to country's GDP.
+
+            In 2016, agriculture and allied sectors like animal husbandry, forestry and fisheries accounted for 15.4% of the GDP (gross domestic product) with about 41.49% of the workforce in 2020. India ranks first in the world with highest net cropped area followed by US and China. The economic contribution of agriculture to India's GDP is steadily declining with the country's broad-based economic growth. Still, agriculture is demographically the broadest economic sector and plays a significant role in the overall socio-economic fabric of India.
+            
+            The total agriculture commodities export was US$3.50 billion in March - June 2020. India exported $38 billion worth of agricultural products in 2013, making it the seventh largest agricultural exporter worldwide and the sixth largest net exporter. Most of its agriculture exports serve developing and least developed nations. Indian agricultural/horticultural and processed foods are exported to more than 120 countries, primarily to the Japan, Southeast Asia, SAARC countries, the European Union and the United States.
+        </p>
+        </div>
+            <div class="thumbnail">
+                <img src="https://source.unsplash.com/900x900/?crop, farmer" alt="farmer logo" class="imgFluid">
+            </div>
+    </section>
+    <br>
+    <hr>
+  <br>
+  <section >
+      <div class="navbar">
+        <ul class="nav-list ">
+            
+            <li><a href="/about">About</a> </li>
+              <li><a href="#Services">Services</a> </li>
+              <li><a href="/Contact">Contact</a> </li> 
+              <form method="post">
+                <input type="date" name="" id="">
+            </form>
+        </ul>
+
+      </div>
+  </section>
+    
+    <script src="js/resp.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
